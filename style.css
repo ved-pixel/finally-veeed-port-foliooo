@@ -13,7 +13,9 @@ body {
 
 header {
     background-color: #111731;
-    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
 }
 
 nav {
@@ -56,7 +58,7 @@ img{
 
 .hero {
     padding-top: 70px;
-    padding: 70px 20px 100px 20px;
+    padding: 140px 20px 100px 20px;
     text-align: left;
 }
 
@@ -317,11 +319,29 @@ footer {
     background: rgba(255, 255, 255, 0.1);
 }
 
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
 .social-icons a {
     margin: 0 10px;
     color: white;
     text-decoration: none;
     width: 33.33%;
+}
+
+.social-icons .icoon{
+  color: #ffffff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 12px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 15px #00000030;
+    background: linear-gradient( 120deg , hsl(200deg 68.12% 59.41%), hsl(244.06deg 54.29% 51.96%)); 
 }
 
 .trf{
@@ -389,9 +409,9 @@ footer {
     width: 100%;
     padding: 10px;
     color: #fff;
-    border-radius: 5px;
+    border-radius: 10px;
     padding-left: 32px;
-    background: black;
+    background: #111731;
   }
   
   .contact-area-bottom{
@@ -459,11 +479,18 @@ footer {
     color: #000000; /* Icon color */
   }
 
-  .address-item.icoon{
+  .address-item .icoon{
     color: #ffffff;
-    width: 50px;
-    padding: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 12px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 15px #00000030;
+    background: linear-gradient( 120deg , hsl(200deg 68.12% 59.41%), hsl(244.06deg 54.29% 51.96%));
   }
+
+
   
   p {
     margin: 0;
@@ -523,9 +550,16 @@ footer {
 
 
 
+/* ---icooonnn bg ------ */
 
+.icon {
+  background-image: linear-gradient( to left, hsl(249.23deg 57.89% 48.43%), hsl(203.65deg 64.32% 58.24%));
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  border-radius: 5px;
 
-
+}
 
 
 
