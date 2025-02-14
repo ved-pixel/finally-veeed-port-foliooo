@@ -62,6 +62,9 @@ img{
     text-align: left;
 }
 
+
+
+
 .hero h1 {
     font-size: 3.5rem;
 }
@@ -479,6 +482,10 @@ footer {
     color: #000000; /* Icon color */
   }
 
+  .address-item p{
+    color:#ffffff;
+  }
+
   .address-item .icoon{
     color: #ffffff;
     width: 40px;
@@ -530,7 +537,7 @@ footer {
   .submit {
     width: 30%;
     padding:  10px 10px ;
-    background: #007bff;
+    background: #111731;
     color: #fff;
     border: none;
     border-radius: 5px;

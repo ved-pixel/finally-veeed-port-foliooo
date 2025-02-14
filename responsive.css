@@ -56,6 +56,17 @@
         /* justify-content: center; */
     }
 
+    /* .project {
+        display: flex;
+
+    } */
+
+   .rowrevers {
+    display: flex;
+    flex-direction: column-reverse;
+   }
+
+
 
     .proimage {
         width: 100%;
@@ -120,8 +131,19 @@
         border-top-left-radius: 110px;
     }
 
+    .skills p {
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
 
+    .copyright{
+        flex-direction: column;
+        gap:30px;
+    }
 
+    .trf p {
+        padding-top:-25px;
+    }
 
 }
 
